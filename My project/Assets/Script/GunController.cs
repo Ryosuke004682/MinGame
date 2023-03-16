@@ -19,6 +19,10 @@ public class GunController : MonoBehaviour
             instanceBullet.transform.position = this.transform.position;
             instanceBullet.GetComponent<BulletController>().Shot(rayDistance.normalized * 3000);
         }
+
+
     }
+
+
 
 }
